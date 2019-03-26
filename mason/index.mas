@@ -1,0 +1,45 @@
+<%args>
+$schema
+$static_content_path => undef
+$show_accept_dialog => undef
+</%args>
+
+<div>
+
+<& /util/import_javascript.mas, classes=>[ "jquery", "jqueryui", "jquery.cookie"] &>
+
+<center>
+
+<table cellpadding="0">
+
+<tr><td colspan="2">
+
+</td></tr>
+
+<tr>
+<td colspan="2">
+
+<center>
+
+<h4>Welcome to Potatobase!</h4>
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Patates.jpg" width="800" />
+<br />
+<font size="1">(Source: Wikipedia)</font>
+</center>
+
+</td>
+</tr>
+<tr>
+<td>
+
+<br />
+<br />
+<br />
+<br />
+<& homepage/github_pullrequests.mas &>
+</td>
+</tr>
+</table>
+
+</center>
+
